@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Card from "../components/Card";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main className="w-full flex justify-center">
+      <Card />
+    </main>
+  );
 }
